@@ -1,0 +1,29 @@
+{
+  "name": "bulkapi",
+  "version": "1.0.0",
+  "description": "Api projet",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bperomet/BulkMuscles.git"
+  },
+  "author": "bastien peromet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bperomet/BulkMuscles/issues"
+  },
+  "homepage": "https://github.com/Bperomet/BulkMuscles#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "prettier": "^2.4.1",
+    "sequelize": "^6.9.0",
+    "winston": "^3.3.3",
+    "yarn": "^1.22.17"
+  }
+}
